@@ -17,25 +17,7 @@ const decrement = ()=>{
 }
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <h1>{count}</h1>
-      <button
-      onClick={increment}>
-        Add Value
-      </button>
-      <br />
-      <button
-      onClick={decrement}>
-        Remove Value
-      </button>
+      <h1 className='bg-blue-800 '>Hello Invictus!</h1>
     </>
   )
 }
